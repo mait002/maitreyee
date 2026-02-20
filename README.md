@@ -1,3 +1,3 @@
 # Personal Website
 
-https://mait002.github.io/personal-portfolioSite/
+[Click to see it live!](https://mait002.github.io/maitreyee/)
