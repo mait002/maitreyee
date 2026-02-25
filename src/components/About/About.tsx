@@ -92,9 +92,7 @@ const About = () => {
             <img className="propic" src={ProfilePicture} />
             <div className="intro">
               <p>
-                Maitreyee is a final-year Computer Science student at Toronto
-                Metropolitan University, driven by a relentless curiosity for
-                technology. She is passionate about contributing to mission-driven projects that makes a meaningful impact in creating a better digital world.
+                Maitreyee is a final-year Computer Science student at Toronto Metropolitan University, driven by a relentless curiosity for technology. She is passionate about contributing to mission-driven projects that make a meaningful impact by improving quality of life.
                 <br />
                 <br />
                 She is a proactive, determined, and self-driven individual who thrives in fast-paced environments. 
@@ -146,10 +144,10 @@ const About = () => {
               <p>
                 <strong>Work Experiece:</strong>
                 <ul>
-                  AI Integration Developer Intern at Department of Computer Science, TMU
+                  <li>AI Integration Developer Intern at Department of Computer Science, TMU</li>
                 </ul>
                 <ul>
-                  Co-op Program Assistant at Career, Co-op and Student Success Centre, TMU
+                  <li>Co-op Program Assistant at Career, Co-op and Student Success Centre, TMU</li>
                 </ul>
                 <strong>Activities:</strong>
                 <ul>
