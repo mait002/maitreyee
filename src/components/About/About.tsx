@@ -92,22 +92,21 @@ const About = () => {
             <img className="propic" src={ProfilePicture} />
             <div className="intro">
               <p>
-                Maitreyee is a third-year Computer Science student at Toronto
+                Maitreyee is a final-year Computer Science student at Toronto
                 Metropolitan University, driven by a relentless curiosity for
-                technology. When she first embarked on her CS journey, she was
-                captivated by the art of building, designing, and managing web
-                applications.
+                technology. She is passionate about contributing to mission-driven projects that makes a meaningful impact in creating a better digital world.
                 <br />
                 <br />
-                Determined to sharpen her skills, she took a self-driven
-                approach—learning through YouTube tutorials, online resources,
-                and hands-on projects. She has developed a solid grasp of
-                full-stack development—seamlessly transitioning between crafting
-                intuitive UI/UX and handling complex backend operations.
+                She is a proactive, determined, and self-driven individual who thrives in fast-paced environments. 
+                With a strong foundation in software development, Maitreyee has strengthened her skills through 
+                hands-on projects and continuous self-learning. Her experience spans full-stack development, 
+                database management, and data analytics, with a growing emphasis on developing AI-powered 
+                applications—designing workflows that incorporate LLMs for automation, evaluation, 
+                and user-facing features.
                 <br />
-                From designing responsive interfaces to managing client-server
-                requests and API integrations, Maitreyee thrives in building
-                scalable, user-friendly applications.
+                From designing responsive interfaces to building backend services and API integrations, 
+                she enjoys creating scalable, user-friendly systems that translate technical ideas into 
+                measurable impact.
               </p>
             </div>
           </section>
@@ -130,13 +129,14 @@ const About = () => {
                 <h4 className="location">Toronto, Canada</h4>
               </div>
               <div className="twoColEntry">
-                <p>Bachelor of Science (B.S.) Computer Science: 4.2/4.33 GPA</p>
-                <p>Class of 2027</p>
+                <p>Bachelor of Science (B.S.) Computer Science: 4.08/4.33 GPA</p>
+                <p>Class of 2026</p>
               </div>
 
               <p>
                 <strong>Relevant Courses:</strong>
                 <ul>
+                  Artifical Intelligence, Data Mining, Computer Security, 
                   Software Engineering, Discrete Structures, Operating Systems,
                   Comparative Programming Languages, Unix and C/C++ systems,
                   Data Structures, Python, Java, Machine Learning, Database
@@ -144,6 +144,13 @@ const About = () => {
                 </ul>
               </p>
               <p>
+                <strong>Work Experiece:</strong>
+                <ul>
+                  AI Integration Developer Intern at Department of Computer Science, TMU
+                </ul>
+                <ul>
+                  Co-op Program Assistant at Career, Co-op and Student Success Centre, TMU
+                </ul>
                 <strong>Activities:</strong>
                 <ul>
                   Undergraduate Science Society of Toronto Metropolitan (USSTM):
