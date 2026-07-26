@@ -92,7 +92,7 @@ const About = () => {
             <img className="propic" src={ProfilePicture} />
             <div className="intro">
               <p>
-                Maitreyee is a final-year Computer Science student at Toronto Metropolitan University, driven by a relentless curiosity for technology. She is passionate about contributing to mission-driven projects that make a meaningful impact by improving quality of life.
+                Maitreyee is a recent Computer Science graduate from Toronto Metropolitan University, with proficiency in <strong>Python, C#, JavaScript, Bash, ASP.NET Core, ReactJS and NodeJS</strong>. She is passionate about contributing to mission-driven projects that make a meaningful impact by improving quality of life.
                 <br />
                 <br />
                 She is a proactive, determined, and self-driven individual who thrives in fast-paced environments. 
@@ -127,8 +127,8 @@ const About = () => {
                 <h4 className="location">Toronto, Canada</h4>
               </div>
               <div className="twoColEntry">
-                <p>Bachelor of Science (B.S.) Computer Science: 4.08/4.33 GPA</p>
-                <p>Class of 2026</p>
+                <p>Bachelor of Science (B.S.) Computer Science: 3.73/4.33 GPA</p>
+                <p>Graduated with Distinction (June 2026)</p>
               </div>
 
               <p>
@@ -137,7 +137,7 @@ const About = () => {
                   Artifical Intelligence, Data Mining, Computer Security, 
                   Software Engineering, Discrete Structures, Operating Systems,
                   Comparative Programming Languages, Unix and C/C++ systems,
-                  Data Structures, Python, Java, Machine Learning, Database
+                  Data Structures, Algorithms, Python, Java, Machine Learning, Database
                   Management Systems
                 </ul>
               </p>
@@ -160,19 +160,27 @@ const About = () => {
 
           {selectedItem === "a little more..." && (
             <section id="more">
-              <p>
-                Lately, her passion has expanded into the fascinating world of{" "}
-                <strong>Artificial Intelligence and Machine Learning</strong>.
-                <br />
-                After taking the Machine Learning course at TMU, she has built a
-                strong foundation in data handling, preprocessing, and
-                transformation techniques—turning messy datasets into valuable
-                insights. Whether it's training predictive models, fine-tuning
-                algorithms, or optimizing datasets for accuracy, she enjoys the
-                challenge of bridging data with intelligent systems. With an
-                ever-evolving skill set and a drive for continuous learning,
-                Maitreyee is always looking for new challenges.
-              </p>
+              <p>Lately, her interests have expanded into the rapidly evolving fields of{" "}
+              <strong>Artificial Intelligence and Machine Learning</strong>.</p>
+              <br />
+              <p>Through her internship experience, she developed a deeper understanding of the
+                importance of evaluating the reliability and security of AI-generated code
+                before integrating AI into software engineering workflows. She advocates for
+                the responsible adoption of AI, with continuous human oversight and thorough
+                vulnerability assessment throughout the development lifecycle.
+              <br />
+                As an AI Integration Developer, she contributed to the development of a
+                multi-agent security evaluation pipeline that automated the end-to-end analysis
+                of AI-generated code. Her work involved integrating agent-based static security
+                scanners, LLM-generated test cases, and containerized code execution for runtime
+                validation. Through this experience, she strengthened her skills in process
+                automation, reproducible system design, API integration, and secure software
+                development.
+              <br />
+                As AI becomes increasingly prevalent in software engineering, maintaining human
+                oversight and incorporating security assessments throughout the development,
+                production, and deployment lifecycles becomes very essential for building reliable
+                and secure AI-enabled applications.</p>
             </section>
           )}
         </div>

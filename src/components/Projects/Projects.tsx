@@ -1,21 +1,69 @@
 import Lottie from 'lottie-react'
+
 import uber from '../../assets/images/uber.json'
 import ball from '../../assets/images/ball.json'
 import profile from '../../assets/images/profile.png'
 import bank from '../../assets/images/bank.json';
 import dice from '../../assets/images/dice.json'
+
 import './Projects.scss'
 
+import { ProjectCard } from '../Card/Card';
+import { Project } from '../Card/type';
+
+import wfp from '../../assets/images/workforcemgmt-750x550.jpg'
+import cosa from '../../assets/images/Screenshot 2026-07-25 at 6.46.49 PM.png'
+import bookRec from '../../assets/images/book-recommendation-apps-1024x1024.webp'
+
 const Projects = () => {
+  const projects: Project[] = [
+    {
+      id: '1',
+      title: 'Workforce Management Platform',
+      githubName: 'wfp',
+      description: 'A full-stack MVP prototype of a workforce management platform.',
+      tags: ['C#', 'ASP.NET Core', 'ReactJS', 'TypeScript', 'MySQL', 'EF Core', 'xUnit'],
+      imageUrl: wfp,
+      githubUrl: 'https://github.com/mait002/Workforce-Management-Platform'
+    },
+    {
+      id: '2',
+      title: 'Co-op Support Application',
+      githubName: 'cosa',
+      description: 'Full-stack web application designed to streamline the co-op program process across three key stakeholders: students, employers, and co-op coordinators.',
+      tags: ['JavaScript', 'Next.js', 'Supabase', 'NodeJS', 'PostgreSQL'],
+      imageUrl: cosa,
+      githubUrl: 'https://github.com/mait002/Co-op-Support-Application'
+    },
+    {
+      id: '3',
+      title: 'Book-recommender Application',
+      githubName: 'book-recommender',
+      description: 'An interactive book recommendation system powered by Large Language Models (LLMs).',
+      tags: ['Python', 'OpenAI API', 'LangChain', 'Hugging Face', 'Gradio', 'Jupyter Notebook'],
+      imageUrl: bookRec,
+      githubUrl: 'https://github.com/mait002/Book-Recommender-project'
+    }
+  ]
 
   return (
     <>
-      <div className='projectContainer'>
+      <div className="projectContainer">
         <h3>Projects</h3>
+
+          <h4>Featured Projects: </h4>
+          <div className="projectGrid">
+            {projects.map((project) => (
+              <ProjectCard 
+                key={project.id} 
+                project={project}/>
+            ))}
+          </div>
+          <h4>And more!</h4>
           <div className="row projectSlider">
             <div className="col-lg-3 project">
             
-            <a href="https://github.com/mait002/TMUber-Application">
+            <a href="https://github.com/mait002/TMUber-Application" target='_blank' rel='noreferrer'>
             <Lottie className='img rounded-circle' animationData={uber} loop={true}/>
             <h5>TMUber App</h5>
             </a>

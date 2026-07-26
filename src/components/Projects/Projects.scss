@@ -1,3 +1,40 @@
-#projectContainer{
+.projectContainer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
 
+    h3 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .projectGrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    
+}
+
+/* Tablet */
+@media screen and (max-width: 800px) {
+    .projectContainer {
+        .projectGrid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 650px) {
+    .projectContainer {
+        padding: 1rem;
+
+        .projectGrid {
+            grid-template-columns: 1fr;
+        }
+    }
 }
