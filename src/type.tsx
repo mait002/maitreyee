@@ -8,3 +8,12 @@ export interface Project {
     projectUrl?: string;
     githubUrl: string;
 }
+
+export interface Skill {
+    id: string;
+    type: string;
+    name: string;
+    imageURL: string;
+    skillURL: string;
+    percentage: number;
+}

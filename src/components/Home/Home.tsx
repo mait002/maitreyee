@@ -18,7 +18,7 @@ const Home = () => {
                         "I'm Maitrobot. Since Maitreyee herself couldn't be here, I am here to tell you all about her!"
                     ]}
                     loop={1}
-                    typeSpeed={100}
+                    typeSpeed={200}
                     
                     
                     

@@ -1,5 +1,5 @@
 import React from "react";
-import { Project } from './type';
+import { Project } from '../../type';
 import './Card.scss'
 
 interface ProjectCardProps {
@@ -10,7 +10,7 @@ interface ProjectCardProps {
 export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     return (
         <div className="projectCard">
-            
+
             <div className="imageContainer">
 
                 <img className="image"

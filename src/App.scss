@@ -237,6 +237,15 @@
   }
 }
 
+  #skills {
+    background-color: black;
+
+    font-family: "Tektur", sans-serif;
+    font-size: clamp(2rem, 2rem + 0.476vw, 1rem);
+    font-weight: 500;
+    color: rgb(253, 253, 253);
+  }
+
   #projects {
     background-color: black;
 
