@@ -11,9 +11,9 @@ import './Projects.scss'
 import { ProjectCard } from '../Card/Card';
 import { Project } from '../../type';
 
-import wfp from '../../assets/images/workforcemgmt-750x550.jpg'
-import cosa from '../../assets/images/Screenshot 2026-07-25 at 6.46.49 PM.png'
-import bookRec from '../../assets/images/book-recommendation-apps-1024x1024.webp'
+import wfp from '../../assets/images/workforcemgmt.jpg'
+import cosa from '../../assets/images/COSA.png'
+import bookRec from '../../assets/images/book-recommendation-apps.webp'
 
 const Projects = () => {
   const projects: Project[] = [

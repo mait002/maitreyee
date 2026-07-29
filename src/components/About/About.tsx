@@ -99,7 +99,7 @@ const About = () => {
                 With a strong foundation in software development, Maitreyee has strengthened her skills through 
                 hands-on projects and continuous self-learning. Her experience spans full-stack development, 
                 database management, and data analytics, with a growing emphasis on developing AI-powered 
-                applications—designing workflows that incorporate LLMs for automation, evaluation, 
+                applications, and designing workflows that incorporate LLMs for automation, evaluation, 
                 and user-facing features.
                 <br />
                 From designing responsive interfaces to building backend services and API integrations, 
